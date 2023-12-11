@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://res.cloudinary.com/teepublic/image/private/s--IyMPL0wa--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1544476110/production/designs/3701852_0.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+
+  .header {
+    font-family: cursive;
+    color: white;
+    font-size: 50px;
+  }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li.active a {
+    background-color: #111;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (10, 1fr);
+    grid-gap: 10px;
+    border: 10px#000;
+    padding: 10px;
+  }
+  
+  .image-container img {
+    width: 445px;
+    height: 1000px;
+    object-fit: fill;
+  }
+  .image-container img {
+    width: 445px;
+    height: 1000px;
+    object-fit: fill;
+    transition: transform 0.3s;
+    border-radius: 10px;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }.image-container img {
+    width: 445px;
+    height: 1000px;
+    object-fit: fill;
+    transition: transform 0.3s;
+    border-radius: 10px;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
